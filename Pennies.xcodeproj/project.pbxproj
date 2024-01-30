@@ -14,6 +14,18 @@
 		126F8DE92B6809E90071458C /* PenniesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8DE82B6809E90071458C /* PenniesTests.swift */; };
 		126F8DF32B6809E90071458C /* PenniesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8DF22B6809E90071458C /* PenniesUITests.swift */; };
 		126F8DF52B6809E90071458C /* PenniesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8DF42B6809E90071458C /* PenniesUITestsLaunchTests.swift */; };
+		126F8E072B680B860071458C /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E062B680B860071458C /* Budget.swift */; };
+		126F8E092B680C9F0071458C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E082B680C9F0071458C /* Transaction.swift */; };
+		126F8E0B2B680E510071458C /* GroupedTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E0A2B680E510071458C /* GroupedTransactions.swift */; };
+		126F8E0D2B68105F0071458C /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E0C2B68105F0071458C /* TransactionCategory.swift */; };
+		126F8E0F2B6811240071458C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E0E2B6811240071458C /* Color.swift */; };
+		126F8E112B6814F00071458C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E102B6814F00071458C /* HapticsManager.swift */; };
+		126F8E172B681F9D0071458C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E162B681F9D0071458C /* Constants.swift */; };
+		126F8E192B6824F20071458C /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E182B6824F20071458C /* TransactionCardView.swift */; };
+		126F8E1B2B68326F0071458C /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E1A2B68326F0071458C /* AddTransactionView.swift */; };
+		126F8E1D2B6854AC0071458C /* TransactionListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E1C2B6854AC0071458C /* TransactionListScreen.swift */; };
+		126F8E1F2B685FDA0071458C /* CategoryCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E1E2B685FDA0071458C /* CategoryCheckBox.swift */; };
+		126F8E212B6860610071458C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F8E202B6860610071458C /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		126F8DEE2B6809E90071458C /* PenniesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenniesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		126F8DF22B6809E90071458C /* PenniesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenniesUITests.swift; sourceTree = "<group>"; };
 		126F8DF42B6809E90071458C /* PenniesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenniesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		126F8E062B680B860071458C /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		126F8E082B680C9F0071458C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		126F8E0A2B680E510071458C /* GroupedTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedTransactions.swift; sourceTree = "<group>"; };
+		126F8E0C2B68105F0071458C /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		126F8E0E2B6811240071458C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		126F8E102B6814F00071458C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		126F8E162B681F9D0071458C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		126F8E182B6824F20071458C /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		126F8E1A2B68326F0071458C /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		126F8E1C2B6854AC0071458C /* TransactionListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListScreen.swift; sourceTree = "<group>"; };
+		126F8E1E2B685FDA0071458C /* CategoryCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCheckBox.swift; sourceTree = "<group>"; };
+		126F8E202B6860610071458C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +119,12 @@
 		126F8DD52B6809E80071458C /* Pennies */ = {
 			isa = PBXGroup;
 			children = (
+				126F8E052B680B010071458C /* Support */,
+				126F8E042B680AFA0071458C /* Views */,
+				126F8E032B680AE20071458C /* Screens */,
+				126F8E022B680ADA0071458C /* Models */,
+				126F8E012B680ACF0071458C /* Extensions */,
+				126F8E202B6860610071458C /* View+Extension.swift */,
 				126F8DD62B6809E80071458C /* PenniesApp.swift */,
 				126F8DD82B6809E80071458C /* ContentView.swift */,
 				126F8DDA2B6809E90071458C /* Assets.xcassets */,
@@ -127,6 +157,52 @@
 				126F8DF42B6809E90071458C /* PenniesUITestsLaunchTests.swift */,
 			);
 			path = PenniesUITests;
+			sourceTree = "<group>";
+		};
+		126F8E012B680ACF0071458C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		126F8E022B680ADA0071458C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				126F8E062B680B860071458C /* Budget.swift */,
+				126F8E082B680C9F0071458C /* Transaction.swift */,
+				126F8E0A2B680E510071458C /* GroupedTransactions.swift */,
+				126F8E0C2B68105F0071458C /* TransactionCategory.swift */,
+				126F8E0E2B6811240071458C /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		126F8E032B680AE20071458C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				126F8E1C2B6854AC0071458C /* TransactionListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		126F8E042B680AFA0071458C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				126F8E182B6824F20071458C /* TransactionCardView.swift */,
+				126F8E1A2B68326F0071458C /* AddTransactionView.swift */,
+				126F8E1E2B685FDA0071458C /* CategoryCheckBox.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		126F8E052B680B010071458C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				126F8E102B6814F00071458C /* HapticsManager.swift */,
+				126F8E162B681F9D0071458C /* Constants.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +335,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126F8E092B680C9F0071458C /* Transaction.swift in Sources */,
+				126F8E0B2B680E510071458C /* GroupedTransactions.swift in Sources */,
+				126F8E0F2B6811240071458C /* Color.swift in Sources */,
+				126F8E0D2B68105F0071458C /* TransactionCategory.swift in Sources */,
+				126F8E172B681F9D0071458C /* Constants.swift in Sources */,
+				126F8E1D2B6854AC0071458C /* TransactionListScreen.swift in Sources */,
+				126F8E192B6824F20071458C /* TransactionCardView.swift in Sources */,
+				126F8E1F2B685FDA0071458C /* CategoryCheckBox.swift in Sources */,
 				126F8DD92B6809E80071458C /* ContentView.swift in Sources */,
 				126F8DD72B6809E80071458C /* PenniesApp.swift in Sources */,
+				126F8E1B2B68326F0071458C /* AddTransactionView.swift in Sources */,
+				126F8E112B6814F00071458C /* HapticsManager.swift in Sources */,
+				126F8E212B6860610071458C /* View+Extension.swift in Sources */,
+				126F8E072B680B860071458C /* Budget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

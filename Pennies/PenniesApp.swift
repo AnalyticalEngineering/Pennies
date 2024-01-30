@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct PenniesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         TransactionListScreen()
         }
+        /// Setting Up the Container
+        .modelContainer(for: [Transaction.self, Budget.self])
+    }
+    init() {
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
     }
 }
